@@ -7,11 +7,12 @@ import { AppComponent } from './app.component';
 import { FeedComponent } from './feed/feed.component';
 import { HeaderComponent } from './feed/header/header.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FeedComponent
+    FeedComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
