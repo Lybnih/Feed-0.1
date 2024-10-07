@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 
 import { FeedComponent } from './feed/feed.component';
 import { HeaderComponent } from './feed/header/header.component';
+import { NovoPostComponent } from './novoPost/novoPost.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FeedComponent,
-    HeaderComponent
+    HeaderComponent,
+    NovoPostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
     provideClientHydration()
